@@ -1,9 +1,11 @@
 # Vue 电商后台管理系统
 
 ## 项目介绍
+
 一个基于 Vue.js + Element UI 的电商后台管理系统，实现了商品管理、权限控制等核心功能。本项目采用前后端分离架构，使用 RESTful API 进行数据交互。
 
 ## 技术栈
+
 - 前端框架：Vue 2.6
 - 状态管理：Vuex
 - 路由管理：Vue Router
@@ -16,6 +18,7 @@
 - 数据模拟：Mock.js
 
 ## 主要功能
+
 - [x] 用户登录/登出
 - [x] 商品管理
   - 商品分类
@@ -28,12 +31,15 @@
   - 按钮级权限
 
 ## 项目特点
+
 1. **完善的权限系统**
+
    - 基于 RBAC 模型的权限管理
    - 支持动态路由和按钮级权限控制
    - 权限验证和路由守卫
 
 2. **组件化开发**
+
    - 封装了通用的业务组件
    - 高度可复用的页面组件
    - 统一的组件开发规范
@@ -47,7 +53,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/huyb-cyber/vue-.git
+git clone https://github.com/huyb-cyber/vue-mall-admin.git
 
 # 进入项目目录
 cd vue-admin-system
@@ -70,6 +76,7 @@ npm run build:prod
 ```
 
 ## 目录结构
+
 ```
 ├── build                      # 构建相关
 ├── mock                       # 项目mock 模拟数据
@@ -98,17 +105,28 @@ npm run build:prod
 ```
 
 ## 环境要求
+
 - Node.js >= 8.9
 - npm >= 3.0.0
 
 ## 浏览器支持
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge | last 2 versions | last 2 versions | last 2 versions |
 
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IE10, IE11, Edge                                                                                                                                                                                                | last 2 versions                                                                                                                                                                                                   | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                               |
 
 ## 作者
+
 - huyb-cyber
 
 ## License
-[MIT](https://github.com/huyb-cyber/vue-/blob/master/LICENSE)
+
+[MIT](https://github.com/huyb-cyber/vue-mall-admin/blob/master/LICENSE)
+
+## 在线预览
+
+- 预览地址：https://huyb-cyber.github.io/vue-mall-admin/
+- 测试账号：admin
+- 测试密码：111111
+
+> 注：部署在 GitHub Pages 上的项目可能会有跨域问题，建议在本地环境测试完整功能。
